@@ -1,0 +1,96 @@
+Paso a Paso Automatizacion Recurrencia Anual de desayuno
+
+1.- Entrar a la comunidad y la captura de Dining
+    * se uso Drag and Drop para entrar a la comunidad
+    * se utilizo JavaScript para entrar a la ventana Dining
+    * Se utilizo JavaScript para entrar en el boton de Add Menu Item
+
+2.- Llenar la informacion general correctamente
+    * llenar correctamente Titulo y descripcion
+    * Elegir una imagen
+
+3.- Completar correctamente los identificadores
+    * LLenar campo de las etiquetas
+    * Elegir una categoria
+    * Activar y desactivar el boton de Hide
+
+4.- Completar Recurrencias completamente
+    * entrar calendario
+        * avanzar y retroceder simbolo del mes
+        * click en un dia del mes
+
+5.- Entrar ventana de la recurrencia Yearly
+    * Modificar el mes de la recurrencia Yearly
+    * Seleccionar Icon del dia
+    * incrementar los meses
+    * incrementar las ocurrencias
+
+6.- Grabar las Recurrencias y grabar las capturas del desayuno
+    * que sea visible el mensaje de Alerta
+
+
+7.- recargar la pagina para evitar espera
+    * subir hasta texto Select All
+        * activar y desactivar el boton Select All
+
+8.-click en los Iconos
+    * click icon de Menu Item
+    * click icon de Meal
+    * click Icon Data Served
+ nota: se utilzo JavaScript para entrar a cada uno de estos iconos
+
+9.- Entrar al tab de Dining Locations y regresar al Tab Menu Items
+
+
+
+
+
+
+
+Step by Step Automation Annual recurrence of breakfast
+
+1.- Enter the community and capture Dining
+     * Drag and Drop was used to enter the community
+     * JavaScript was used to enter the Dining window
+     * JavaScript was used to enter the Add Menu Item button
+
+2.- Fill in the general information correctly
+     * fill correctly title and description
+     * Choose an image
+
+3.- Correctly complete the identifiers
+     * Fill label field(Tags)
+     * Choose a category
+     * Enable and disable the Hide button
+
+4.- Complete Recurrences completely
+     * enter calendar
+         * forward and backward symbol of the month
+         * click on a day of the month
+
+5.- Enter Yearly recurrence window
+     * Modify the month of the Yearly recurrence
+     * Select Icon of the day
+     * increase the months
+     * increase occurrences
+
+6.- Record the Recurrences and record the breakfast captures
+     * that the Alert message is visible
+
+7.- reload the page to avoid waiting
+     * move up to Select All text
+         * enable and disable the Select All button
+
+8.-click on the Icons
+     * click icon of Menu Item
+     * click Meal icon
+     * click Icon Data Served
+  note: JavaScript was used to access each of these icons
+
+9.- Enter the Dining Locations tab and return to the Tab Menu Items
+
+
+
+
+
+

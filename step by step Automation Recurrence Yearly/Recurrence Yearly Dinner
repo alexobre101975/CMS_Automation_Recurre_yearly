@@ -1,0 +1,213 @@
+Paso a Paso Automatizacion Recurrencia Anual de cena
+
+1.- Entrar a la comunidad y la captura de Dining
+    * se uso Drag and Drop para entrar a la comunidad
+    * se utilizo JavaScript para entrar a la ventana Dining
+    * Se utilizo JavaScript para entrar en el boton de Add Menu Item
+
+2.- Llenar la informacion general correctamente
+    * llenar correctamente Titulo y descripcion
+    * Elegir una imagen
+
+3.- Completar correctamente los identificadores
+    * LLenar campo de las etiquetas
+    * Elegir una categoria
+    * Activar y desactivar el boton de Hide
+
+4.- Completar Recurrencias completamente
+    * entrar calendario
+        * avanzar y retroceder simbolo del mes
+        * click en un dia del mes
+
+5.- Entrar ventana de la recurrencia Yearly
+    * Modificar el mes de la recurrencia Yearly
+    * activar simbolo y modificar campos en el tab
+    * Modificar las ocurrencias
+    * Seleccionar simbolo de dia
+    * Modify Every Months (increase number of Months)
+    * Modificar las ocurrencias
+    * click en el boton de save de la ventana de Recurrencias
+
+6.- Click en el boton Save para grabar las capturas con su recurrencias
+    * Visible el mensaje de exito de las capturas grabadas
+
+7.- subir hasta texto Select All
+     * simular dar clic en el boton Select All
+
+8.- Simular dar clic La imagen de titulo
+
+9.- Seleccionar las Ventas Seleccionar Todo
+     * Aparezcan seleccionados todas las ventanas de las capturas creadas
+
+10.- Ingresa en el botón Eliminar Elementos del Menú
+     * ¿Está seguro de que desea eliminar los siguientes elementos del menú?
+     * haga clic en el botón Cancelar
+
+11.- Botón deseleccionar Seleccionar Todo
+
+12.- Entrar a una captura de dininig y modificar informacion
+    * Modificar los campos de descripcion, imagen
+    * Incluir en campo de etiquetas una mas
+
+13.- Volver a grabar las capturas con las nuevas modificaciones
+    * confirmar dando clic en el boton de Confirm Menu Item Changes
+
+14.-click en los Iconos
+    * click icon de Menu Item
+    * click icon de Meal
+    * click Icon Data Served
+
+ nota: se utilzo JavaScript para entrar a cada uno de estos iconos
+
+15.- entrar en el simbolo de busqueda
+    * en el campo de busqueda colocar nombres de capturas
+    * Cerrar el campo de busqueda
+
+nota: se utilizo JavaScript para entrar a esta ventana de Filtros
+
+16.-Entrar a la ventana de Filtros
+    * entrar al calendario
+    * avanzar mes
+    * retroceder mes
+    * clic en el dia actual
+    * haga clic en la pestaña Aplicar filtros actuales
+    * dar clic en la pestaña Borrar todo
+    * Haga clic en el icono para cerrar el filtro de ventana
+
+17.-Entrar a una captura creada
+    * entrar al calendario
+    * regresar un mes
+    * clic nuevo dia
+    * grabar nuevamente
+
+18.- Confirmar cambios en los elementos del menú
+    * los cambio sean aplicados a una sola captura
+
+19.- utilizar esperas para llegar al boton de impresion
+    * simular dar clic boton seleccionar todo
+    * simular dar clic en la imagen de Title
+    * bajar a la ultima captura (utilizando JavaScript)
+    * subir a la ultima captura (utilizando JavaScript)
+
+20.- Entrar dando clic simbolo de Print
+    * clic simbolo de avanzar hasta que sea visible la comida registrada
+    * cerrar clic icon de Print
+
+21.- utilizar esperas para entrar a una captura registrada
+    * simular dar clic boton seleccionar todo
+    * simular dar clic en la imagen de Title
+
+22.- eliminar captura creada ( solo eliminar esa captura)
+    * solo se elimina una captura dando clic boton de Delete,yes
+
+23.- recargar la pagina para evitar algunas esperas de tiempo
+
+24.- Entrar a una nueva captura creada y eliminarla (eliminar las recurrencias)
+    * eliminar la captura con sus recurrencias dando clic Delete All Reucrrences
+
+25.- recargar la pagina para evitar algunas esperas de tiempo
+
+26.-Eliminar todas las capturas restantes
+    * seleccionar ventana de las capturas restantes dando clic boton de Delete Multiples Items
+    * Eliminar todas las capturas definitivamente dando clic boton Delete Menu Items
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step by Step Automation Annual Recurrence of dinner
+
+1.- Enter the community and capture Dining
+     * Drag and Drop was used to enter the community
+     * JavaScript was used to enter the Dining window
+     * JavaScript was used to enter the Add Menu Item button
+
+2.- Fill in the general information correctly
+     * fill correctly title and description
+     * Choose an image
+
+3.- Correctly complete the identifiers
+     * Fill label field
+     * Choose a category
+     * Enable and disable the Hide button
+
+4.- Complete Recurrences completely
+     * enter calendar
+         * forward and backward symbol of the month
+         * click on a day of the month
+
+5.- Enter Yearly recurrence window
+     * Modify the month of the Yearly recurrence
+     * activate symbol and modify fields in the tab
+     * Modify occurrences
+     * Select day symbol
+     * Modify Every Months (increase number of Months)
+     * Increase Occurrences
+     * click on the save button in the Recurrences window
+
+6.- Click on the Save button to save the captures with their recurrences
+     * Visible the success message of the recorded captures
+
+7.- go up to Select All text
+      * simulate clicking the Select All button
+
+8.- Simulate clicking the title image
+
+9.- Select the Sales SeLect All
+     * All the windows of the captures created appear selected
+
+10.- Enter in the button Delete Menu Items
+     * Are you sure you want to delete the following menu items?
+     * click Button Cancel
+
+11.- Unselect button Select All
+
+12.- Enter a dininig capture and modify information
+     * Modify the fields of description, image
+     * Include one more label field
+
+13.- Re-record the captures with the new modifications
+     * confirm by clicking the Confirm Menu Item Changes button
+
+14.-click on the Icons
+     * click icon of Menu Item
+     * click Meal icon
+     * click Icon Data Served
+
+  note: JavaScript was used to access each of these icons
+
+15.- enter the search symbol
+     * in the search field place capture names
+     * Close the search field
+
+note: JavaScript was used to access this Filters window
+
+16.-Enter the Filters window
+     * enter the calendar
+     * advance month
+     * go back month
+     * click on the current day
+     * click tab Apply Current Filters
+     * click tab Clear All
+     * Click Icon close Window Filter
+
+
+

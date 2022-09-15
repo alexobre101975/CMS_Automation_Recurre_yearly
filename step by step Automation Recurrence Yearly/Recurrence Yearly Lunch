@@ -1,0 +1,113 @@
+Paso a Paso Automatizacion Recurrencia Anual de comida
+
+1.- Entrar a la comunidad y la captura de Dining
+    * se uso Drag and Drop para entrar a la comunidad
+    * se utilizo JavaScript para entrar a la ventana Dining
+    * Se utilizo JavaScript para entrar en el boton de Add Menu Item
+
+2.- Llenar la informacion general correctamente
+    * llenar correctamente Titulo y descripcion
+    * Elegir una imagen
+
+3.- Completar correctamente los identificadores
+    * LLenar campo de las etiquetas
+    * Elegir una categoria
+    * Activar y desactivar el boton de Hide
+
+4.- Completar Recurrencias completamente
+    * entrar calendario
+        * avanzar y retroceder simbolo del mes
+        * click en un dia del mes
+
+5.- Entrar ventana de la recurrencia Yearly
+    * Modificar el mes de la recurrencia Yearly
+    * activar simbolo y modificar campos en el tab
+    * Modificar las ocurrencias
+    * click en el boton de save de la ventana de Recurrencias
+
+6.- Click en el boton Save para grabar las capturas con su recurrencias
+    * Visible el mensaje de exito de las capturas grabadas
+
+7.- subir hasta texto Select All
+     * activar y desactivar el boton Select All
+
+8.-click en los Iconos
+    * click icon de Menu Item
+    * click icon de Meal
+    * click Icon Data Served
+
+ nota: se utilzo JavaScript para entrar a cada uno de estos iconos
+
+9.- Entrar al tab de Dining Locations y regresar al Tab Menu Items
+
+10.-Entrar la captura y modifique la información
+    * Modificar el campo de Descripcion
+    * Anexar texto en el campo de etiquetas
+
+11.-Aplicar a esta y futuras ocurrencias
+    * grabar los cambios dentro de la captura
+
+
+
+
+
+
+
+
+
+
+
+
+
+Step by Step Automation Annual Recurrence of Lunch
+
+1.- Enter the community and capture Dining
+     * Drag and Drop was used to enter the community
+     * JavaScript was used to enter the Dining window
+     * JavaScript was used to enter the Add Menu Item button
+
+2.- Fill in the general information correctly
+     * fill correctly title and description
+     * Choose an image
+
+3.- Correctly complete the identifiers
+     * Fill label field
+     * Choose a category
+     * Enable and disable the Hide button
+
+4.- Complete Recurrences completely
+     * enter calendar
+         * forward and backward symbol of the month
+         * click on a day of the month
+
+5.- Enter Yearly recurrence window
+     * Modify the month of the Yearly recurrence
+     * activate symbol and modify fields in the tab
+     * Modify occurrences
+     * click on the save button in the Recurrences window
+
+6.- Click on the Save button to save the captures with their recurrences
+     * Visible the success message of the recorded captures
+
+7.- go up to Select All text
+      * enable and disable the Select All button
+
+8.-click on the Icons
+     * click icon of Menu Item
+     * click Meal icon
+     * click Icon Data Served
+
+  note: JavaScript was used to access each of these icons
+
+9.- Enter the Dining Locations tab and return to the Tab Menu Items
+
+10.-Enter the capture and modify the information
+     * Modify the Description field
+     * Append text in the label field
+
+11.-Apply to this and future occurrences
+     * record changes within capture
+
+
+
+
