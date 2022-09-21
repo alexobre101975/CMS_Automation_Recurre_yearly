@@ -5,7 +5,7 @@ ${Email}                    superUser
 ${Password}                 SuperAdmin1@
 ${Community}                SuperUserCombo
 ${Waterford}                SuperUserCombo-option-29
-${Dinning}                   document.getElementById('SideNav_Menu_Dinning').click()
+${Dinning}                  document.getElementById('SideNav_Menu_Dinning').click()
 ${Add Menu Item}            document.getElementById('dining_new_dining_btn').click()
 ${dining_title}             id=add_dining_title
 ${dining_description}       id=add_dining_description
@@ -72,8 +72,9 @@ ${Delete_Menu_Items}        //div[contains(text(),'Yes, Delete')]
 ${Text_Image}               id=id_dining_header_list_image
 ${text Menu Item}           id=id_dining_header_list_menu_item
 
-
-
+${Giant-Hot-dog}            //div[contains(text(),'Giant Hot-dog')]
+${Chicken-Fried}            //div[contains(text(),'Chicken Fried')]
+${Barbecue}                 //div[contains(text(),'Barbecue')]
 
 
 

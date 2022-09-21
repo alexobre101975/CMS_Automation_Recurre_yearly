@@ -47,6 +47,9 @@ Paso a Paso Automatizacion Recurrencia Anual de comida
 11.-Aplicar a esta y futuras ocurrencias
     * grabar los cambios dentro de la captura
 
+importante: * en esta automatizacion aun hay que modificar algunos xpath por IDS
+            * Para entrar a una actividad ya creada se utilizo Xpath y la descripcion de la imagen
+
 
 
 
@@ -108,6 +111,8 @@ Step by Step Automation Annual Recurrence of Lunch
 11.-Apply to this and future occurrences
      * record changes within capture
 
+important: * in this automation you still have to modify some xpath by IDS
+           * To enter an activity already created, XPath and the description of the image were used
 
 
 

@@ -113,8 +113,8 @@ nota: se utilizo JavaScript para entrar a esta ventana de Filtros
 
 
 
-
-
+importante: * en esta automatizacion aun hay que modificar algunos xpath por IDS
+            * Para entrar a una actividad ya creada se utilizo Xpath y la descripcion de la imagen
 
 
 
@@ -211,3 +211,5 @@ note: JavaScript was used to access this Filters window
 
 
 
+important: * in this automation you still have to modify some xpath by IDS
+           * To enter an activity already created, XPath and the description of the image were used

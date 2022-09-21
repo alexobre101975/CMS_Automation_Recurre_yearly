@@ -175,8 +175,8 @@ PR01 Automation to enter Community Waterford Recurrence Yearly (Lunch)
 
 # enter the capture and modify information
     sleep       1
-    scroll element into view         //div[contains(text(),'Giant Hot-dog')]
-    click element                    //div[contains(text(),'Giant Hot-dog')]
+    scroll element into view        ${Giant-Hot-dog}
+    click element                   ${Giant-Hot-dog}
 
 # Remove Text Description
     click element       ${dining_description}
