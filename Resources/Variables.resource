@@ -4,7 +4,7 @@ ${website}       http://dev.www.engage360.evacompute.com:8080/
 ${Email}                    superUser
 ${Password}                 SuperAdmin1@
 ${Community}                SuperUserCombo
-${Waterford}                SuperUserCombo-option-29
+${Waterford}                SuperUserCombo-option-30
 ${Dinning}                  document.getElementById('SideNav_Menu_Dinning').click()
 ${Add Menu Item}            document.getElementById('dining_new_dining_btn').click()
 ${dining_title}             id=add_dining_title
