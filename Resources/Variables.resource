@@ -22,34 +22,37 @@ ${Calendar_Btn}             id=Calendar_Btn_StartDate_add_dining_start_date
 ${advance_month}            id=calendarHeader_rightArrow
 ${back_month}               id=calendarHeader_leftArrow
 ${oct31}                    document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[35].click()
-${oct25}                    document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[30].click()
-${oct01}                    document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[6].click()
-${Nov01}                    document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[02].click()
 ${Tab_Repeats}              id=RepeatValue
 ${Recurre_Yearly}           id=RepeatValue-option-4
 ${Modify_Month}             id=MonthValue
-${Month_January}            MonthValue-option-0
 ${Month_November}           MonthValue-option-10
-${Month_December}           MonthValue-option-11
 ${Simbol_on_day}             name=radio-btn_onD
-${Simbol_on_day2}            name=radio-btn_onT
-${Date_Select}               id=MonthlyWeekDatSelect
-${Select_Wednesday}          MonthlyWeekDatSelect-option-3
-${PositionSelect}            id=OrdinalPositionSelect
-${Select_Fourth}             OrdinalPositionSelect-option-3
 ${modify_day}               id=RepeatInterval
 ${modify_Occurrences}       id=OccurrencesField
-${Apply_Occurrences}        id=Apply_this_occurrence_btn
 ${SaveRecurrence}           id=saveRecurrenceObj
 ${Save_btn}                 id=add_dining_save_btn
 ${Message_Accept}           id=alert_AddDining_Success
-${Menu_Items}               id=boards-tab-0
-${Dining_Location}          //span[contains(text(),'Dining Locations (1)')]
+${Icon_Filter}               //body/div[@id='DiningsFilterPopOver']/div[3]/div[1]/form[1]/div[1]/button[1]
+${oct25}                    document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[30].click()
+${Month_December}           MonthValue-option-11
+${Simbol_on_day2}            name=radio-btn_onT
+${PositionSelect}            id=OrdinalPositionSelect
+${Select_Fourth}             OrdinalPositionSelect-option-3
+${Date_Select}               id=MonthlyWeekDatSelect
+${Select_Wednesday}          MonthlyWeekDatSelect-option-3
+${Button_SelectAll}         id=addEditDevice_Headers_SelectAll
+${Text_Image}               id=id_dining_header_list_image
 ${Icon_Item_Menu}           document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root')[4].click()
-${icon_Meal}                document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root')[5].click()
 ${icon_Date_Served}         document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root')[6].click()
-${No,Cancel}                //div[contains(text(),'No, Cancel')]
+${icon_Meal}                document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root')[5].click()
+${Dining_Location}          //span[contains(text(),'Dining Locations (1)')]
+${Menu_Items}               id=boards-tab-0
+${Giant-Hot-dog}            //div[contains(text(),'Giant Hot-dog')]
+${Apply_Occurrences}        id=Apply_this_occurrence_btn
+${Nov01}                    document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day')[02].click()
 ${Yes, Delete}              id=delete_multiple_dinings
+${No,Cancel}                //div[contains(text(),'No, Cancel')]
+${Barbecue}                 //div[contains(text(),'Barbecue')]
 ${Search_Button}            id=search_btn
 ${Tab_Search}               id=dining_search
 ${Clear_Search}             id=dinings_clear_btn
@@ -59,22 +62,18 @@ ${Next_Month}               document.getElementsByClassName('MuiButtonBase-root 
 ${Return_Month}             document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersCalendarHeader-iconButton')[0].click()
 ${Current day}              document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root MuiPickersDay-day MuiPickersDay-current MuiPickersDay-daySelected')[0].click()
 ${Apply_Current_Filters}    document.getElementsByClassName('MuiButtonBase-root MuiButton-root MuiButton-text filters_btn')[0].click()
-${Clear_All}                //span[contains(text(),'Clear All')]
-${Close_FilterWindow}       document.getElementsByClassName('MuiButtonBase-root MuiIconButton-root')[19].click()
+${Chicken-Fried}            //div[contains(text(),'Chicken Fried')]
 ${Log_Print}                id=dining_print_icon
-${Delete_Dinning}           id=add_dining_delete_btn
-${delete_Yes}               id=cancel_repair_cancel_btn
-${No_Exit}                  id=cancel_repair_return_btn
-${Button_SelectAll}         id=addEditDevice_Headers_SelectAll
-${Delete_All_Recurrence}    id=close_repair_close_btn
 ${Delete_Multiple_Items}    id=delete_multiple_dinings
 ${Delete_Menu_Items}        //div[contains(text(),'Yes, Delete')]
-${Text_Image}               id=id_dining_header_list_image
-${text Menu Item}           id=id_dining_header_list_menu_item
+${Month_January}            MonthValue-option-0
+${Clear_All}                //span[contains(text(),'Clear All')]
 
-${Giant-Hot-dog}            //div[contains(text(),'Giant Hot-dog')]
-${Chicken-Fried}            //div[contains(text(),'Chicken Fried')]
-${Barbecue}                 //div[contains(text(),'Barbecue')]
+
+
+
+
+
 
 
 

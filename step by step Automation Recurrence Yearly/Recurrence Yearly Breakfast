@@ -41,6 +41,8 @@ Paso a Paso Automatizacion Recurrencia Anual de desayuno
 
 9.- Entrar al tab de Dining Locations y regresar al Tab Menu Items
 
+10.- Seleccionar todas las capturas y eliminarlas
+
 importante: * en esta automatizacion aun hay que modificar algunos xpath por IDS
             * Para entrar a una actividad ya creada se utilizo Xpath y la descripcion de la imagen
 
@@ -89,6 +91,8 @@ Step by Step Automation Annual recurrence of breakfast
   note: JavaScript was used to access each of these icons
 
 9.- Enter the Dining Locations tab and return to the Tab Menu Items
+
+10.- Select all the captures and delete them
 
 
 important: * in this automation you still have to modify some xpath by IDS

@@ -4,15 +4,15 @@ Documentation       CMS-Engage360 Community Waterford
 Library    SeleniumLibrary
 
 Suite Setup        web setup
-#Suite Teardown    Close All Browsers
+Suite Teardown    Close All Browsers
 
 Resource    Resources/Variables.resource
 Resource    Resources/Keywords.resource
 
 *** Test Cases ***
 
-PR01 Automation to enter Community Waterford Recurrence Yearly (Lunch)
-        [Tags]      Validation Test       Case 1
+PR02 Automation to enter Community Waterford Recurrence Yearly (Lunch)
+        [Tags]      Validation Test       Case 2
 
 # Open Community Waterford Engage360
         Click Element    ${Community}
@@ -195,9 +195,20 @@ PR01 Automation to enter Community Waterford Recurrence Yearly (Lunch)
    click element               ${Save_btn}
    click element               ${Save_btn}
 
-## Confirm Menu Item Changes
-#Apply to This and Future Occurrences
+# Click Button Confirm Menu Item Changes
+# Click Button Apply to This and Future Occurrences
     click element           ${Apply_Occurrences}
 
+# reload the page
+    reload page
 
+# Button select All
+    scroll element into view              ${Button_SelectAll}
+    click element                         ${Button_SelectAll}
+# Delete Menu Items
+    scroll element into view            ${Delete_Multiple_Items}
+    click element       ${Delete_Multiple_Items}
 
+# Are you sure you want to delete the following menu items?
+    scroll element into view            ${Delete_Menu_Items}
+    click element      ${Delete_Menu_Items}

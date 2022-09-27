@@ -17,7 +17,7 @@ Paso a Paso Automatizacion Recurrencia Anual de comida
 4.- Completar Recurrencias completamente
     * entrar calendario
         * avanzar y retroceder simbolo del mes
-        * click en un dia del mes
+        * click en un dia del mes (usando Javascript)
 
 5.- Entrar ventana de la recurrencia Yearly
     * Modificar el mes de la recurrencia Yearly
@@ -44,8 +44,16 @@ Paso a Paso Automatizacion Recurrencia Anual de comida
     * Modificar el campo de Descripcion
     * Anexar texto en el campo de etiquetas
 
-11.-Aplicar a esta y futuras ocurrencias
+11.-dar click en el button "Aplicar a esta y futuras ocurrencias"
     * grabar los cambios dentro de la captura
+
+12.- Recargar la pagina y evitar la espera
+
+13.- subir al boton de See All y seleccionar las capturas existentes
+
+14.-  entrar al boton de Delete Menu items
+
+15.- eliminar todas las capturas existentes
 
 importante: * en esta automatizacion aun hay que modificar algunos xpath por IDS
             * Para entrar a una actividad ya creada se utilizo Xpath y la descripcion de la imagen
@@ -81,7 +89,7 @@ Step by Step Automation Annual Recurrence of Lunch
 4.- Complete Recurrences completely
      * enter calendar
          * forward and backward symbol of the month
-         * click on a day of the month
+         * click on a day of the month (using Javascript)
 
 5.- Enter Yearly recurrence window
      * Modify the month of the Yearly recurrence
@@ -110,6 +118,14 @@ Step by Step Automation Annual Recurrence of Lunch
 
 11.-Apply to this and future occurrences
      * record changes within capture
+
+12.- Reload the page and avoid waiting
+
+13.- go to the See All button and select the existing captures
+
+14.- Enter the Delete Menu items button
+
+15.- delete all existing screenshots
 
 important: * in this automation you still have to modify some xpath by IDS
            * To enter an activity already created, XPath and the description of the image were used

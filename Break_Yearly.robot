@@ -4,7 +4,7 @@ Documentation       CMS-Engage360 Community Waterford
 Library    SeleniumLibrary
 
 Suite Setup        web setup
-#Suite Teardown    Close All Browsers
+Suite Teardown    Close All Browsers
 
 Resource    Resources/Variables.resource
 Resource    Resources/Keywords.resource
@@ -111,8 +111,10 @@ PR01 Automation to enter Community Waterford Recurrence Yearly (Breakfast)
 # Modify Monthly
     click element       ${Modify_Month}
     click element        ${Month_November}
-# select Icon on Day
+
+ # select Icon on Day
     click element       ${Simbol_on_day}
+
 # Modify Every Months (increase number of Months)
   double click element                ${modify_day}
   choose file                         ${modify_day}           3
@@ -142,10 +144,10 @@ PR01 Automation to enter Community Waterford Recurrence Yearly (Breakfast)
     wait until element is visible           ${Button_SelectAll}
     set focus to element                    ${Button_SelectAll}
     mouse down                              ${Button_SelectAll}
-    sleep       1
+#    sleep       1
 # select and unselect button Select All
-    double click element                         ${Button_SelectAll}
-
+   double click element                    ${Button_SelectAll}
+#
 # simulate click and image Title
     wait until element is visible        ${Text_Image}
     mouse over                           ${Text_Image}
@@ -155,7 +157,6 @@ PR01 Automation to enter Community Waterford Recurrence Yearly (Breakfast)
     sleep           1
 # click icon Meal
     execute javascript     ${icon_Meal}
-
     sleep   1
 # click icon Date Served
     execute javascript      ${icon_Date_Served}
@@ -166,3 +167,15 @@ PR01 Automation to enter Community Waterford Recurrence Yearly (Breakfast)
 # click Tab menu Items
     click element               ${Menu_Items}
 
+# click Button select All
+    scroll element into view                 ${Button_SelectAll}
+    wait until element is visible            ${Button_SelectAll}
+    click element                            ${Button_SelectAll}
+
+# Delete Menu Items
+    scroll element into view            ${Delete_Multiple_Items}
+    click element       ${Delete_Multiple_Items}
+
+# Are you sure you want to delete the following menu items?
+    scroll element into view            ${Delete_Menu_Items}
+    click element      ${Delete_Menu_Items}

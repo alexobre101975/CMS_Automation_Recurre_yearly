@@ -74,42 +74,15 @@ nota: se utilizo JavaScript para entrar a esta ventana de Filtros
     * dar clic en la pestaña Borrar todo
     * Haga clic en el icono para cerrar el filtro de ventana
 
-17.-Entrar a una captura creada
-    * entrar al calendario
-    * regresar un mes
-    * clic nuevo dia
-    * grabar nuevamente
 
-18.- Confirmar cambios en los elementos del menú
-    * los cambio sean aplicados a una sola captura
-
-19.- utilizar esperas para llegar al boton de impresion
-    * simular dar clic boton seleccionar todo
-    * simular dar clic en la imagen de Title
-    * bajar a la ultima captura (utilizando JavaScript)
-    * subir a la ultima captura (utilizando JavaScript)
-
-20.- Entrar dando clic simbolo de Print
-    * clic simbolo de avanzar hasta que sea visible la comida registrada
+17.- Entrar dando clic simbolo de Print
+    * clic simbolo de avanzar hasta que no sea visible la captura
     * cerrar clic icon de Print
 
-21.- utilizar esperas para entrar a una captura registrada
-    * simular dar clic boton seleccionar todo
-    * simular dar clic en la imagen de Title
+18.- Subir al boton de See All y seleccionar las capturas
 
-22.- eliminar captura creada ( solo eliminar esa captura)
-    * solo se elimina una captura dando clic boton de Delete,yes
+19.- click en boton de eliminar todas las capturas
 
-23.- recargar la pagina para evitar algunas esperas de tiempo
-
-24.- Entrar a una nueva captura creada y eliminarla (eliminar las recurrencias)
-    * eliminar la captura con sus recurrencias dando clic Delete All Reucrrences
-
-25.- recargar la pagina para evitar algunas esperas de tiempo
-
-26.-Eliminar todas las capturas restantes
-    * seleccionar ventana de las capturas restantes dando clic boton de Delete Multiples Items
-    * Eliminar todas las capturas definitivamente dando clic boton Delete Menu Items
 
 
 
@@ -205,11 +178,18 @@ note: JavaScript was used to access this Filters window
      * advance month
      * go back month
      * click on the current day
-     * click tab Apply Current Filters
-     * click tab Clear All
-     * Click Icon close Window Filter
+     * click the Apply Current Filters tab
+     * click on the Delete all tab
+     * Click the icon to close the filter window
 
 
+17.- Enter by clicking the Print symbol
+     * click forward symbol until the capture is not visible
+     * close click Print icon
+
+18.- Go to the See All button and select the captures
+
+19.- click on delete all captures button
 
 important: * in this automation you still have to modify some xpath by IDS
            * To enter an activity already created, XPath and the description of the image were used

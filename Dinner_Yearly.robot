@@ -11,8 +11,8 @@ Resource    Resources/Keywords.resource
 
 *** Test Cases ***
 
-PR01 Automation to enter Community Waterford Recurrence Yearly (Dinner)
-        [Tags]      Validation Test       Case 1
+PR03 Automation to enter Community Waterford Recurrence Yearly (Dinner)
+        [Tags]      Validation Test       Case 3
 
 # Open Community Waterford Engage360
         Click Element    ${Community}
@@ -155,265 +155,167 @@ PR01 Automation to enter Community Waterford Recurrence Yearly (Dinner)
 # Enter in the button Delete Mneu Items
     click element               ${Yes, Delete}
 
+ # Are you sure you want to delete the following menu items?
+ # click Button Cancel
+    click element              ${No,Cancel}
+
+# unselect button Select All
+    scroll element into view                ${Button_SelectAll}
+    wait until element is visible           ${Button_SelectAll}
+    click element                           ${Button_SelectAll}
+
+# enter the capture and modify information (description, image, and Tag)
+    scroll element into view        ${Barbecue}
+    click element                   ${Barbecue}
+
+
+# Remove Text Description
+    click element       ${dining_description}
+    Press Keys          ${dining_description}      CTRL+A+DELETE
+
+# Text Modify Description
+      input text          ${dining_description}          especies, potatoes and soft meat
+
+# Modify Image
+# Image
+    Press Keys        ${image}      CTRL+A+DELETE
+    input text        ${image}       Barbecue
+
+# click Magnifier search
+  click element         ${Search}
+
+# Search Image
+   click element                        id=image_2169305
+
+# Click DONE
+    click element       ${DONE}
+
+# visible Tab Tags
+  Execute Javascript              window.scrollTo(document.body.scrollHeight,0)
+
+# enter more Text (tags)
+   input text        ${tags}        Exquisite Taste
+   press keys        ${tags}         ENTER
+
+#  Save Dinning
+   scroll element into view    ${Save_btn}
+   element text should be      ${Save_btn}     Save
+   click element               ${Save_btn}
+   click element               ${Save_btn}
+
+# Confirm Menu Item Changes
+# Apply to This and Future Occurrences
+    click element           ${Apply_Occurrences}
+
+# simulate click and image Title
+    wait until element is visible        ${Text_Image}
+    mouse over                           ${Text_Image}
+
+#  click  Icon Item Menu
+    execute javascript      ${Icon_Item_Menu}
+
+# click icon Meal
+    execute javascript     ${icon_Meal}
+
+    sleep   1
+# click icon Date Served
+    execute javascript      ${icon_Date_Served}
+
+# Enter Icon de Search
+    wait until element is visible       ${Search_Button}
+    set focus to element                ${Search_Button}
+    click element                       ${Search_Button}
+
+
+    wait until element is visible       ${Tab_Search}
+    set focus to element                ${Tab_Search}
+    click element                       ${Tab_Search}
+
+# enter search text (captures)
+    input text           ${Tab_Search}      Giant Hot-dog
+    click element        ${Tab_Search}
+
+    wait until element is visible   ${Clear_Search}
+    set focus to element            ${Clear_Search}
+    click element                   ${Clear_Search}
+
+# Enter Icon de Search
+    click element                      ${Search_Button}
+
+    click element                       ${Tab_Search}
+
+# enter search text (captures)
+    input text          ${Tab_Search}      Chicken Fried
+    click element       ${Tab_Search}
+
+    click element                       ${Clear_Search}
+
+# Enter Icon de Search
+    click element                      ${Search_Button}
+
+    click element                       ${Tab_Search}
+
+# enter search text (captures)
+    input text           ${Tab_Search}      Barbecue
+    click element        ${Tab_Search}
+
+
+    click element      ${Clear_Search}
+
+# Enter Icon Filter
+    click element       ${Filter_Icon}
+
+
+# Used JavaScript
+
+# Enter the calendar Filter
+    execute javascript      ${Calendar_Filter}
+
+# Next Month In Window FIlter
+    execute javascript      ${Next_Month}
+
+# Return Month In Window Filter
+    execute javascript          ${Return_Month}
+
+# Click in the day Window Filter
+    execute javascript      ${Current day}
+
+# Click in tab Apply Current Filters
+    execute javascript          ${Apply_Current_Filters}
+
+# Enter Icon Filter
+   click element    ${Filter_Icon}
+
+
+
+# click Tab Clear All
+    wait until element is visible       ${Clear_All}
+    click element          ${Clear_All}
+
+# Click Icon close Window Filter
+    click element       ${Icon_Filter}
+
+# click Icon Print
+    scroll element into view    ${Log_Print}
+    click element               ${Log_Print}
+
+# click next visible capture dining
+    double click element            ${right_arrow}
+
+# close Incon close Print
+    click element           ${Print_Close}
+
+# select button Select All
+    scroll element into view                ${Button_SelectAll}
+    wait until element is visible           ${Button_SelectAll}
+    click element                           ${Button_SelectAll}
+
+# Delete Menu Items
+    scroll element into view            ${Delete_Multiple_Items}
+    click element       ${Delete_Multiple_Items}
+
 # Are you sure you want to delete the following menu items?
-# click Button Cancel
-#    click element              ${No,Cancel}
-#
-## unselect button Select All
-#    scroll element into view                ${Button_SelectAll}
-#    wait until element is visible           ${Button_SelectAll}
-#    click element                           ${Button_SelectAll}
-#
-## enter the capture and modify information (description, image, and Tag)
-#    scroll element into view        ${Barbecue}
-#    click element                   ${Barbecue}
-#
-#
-## Remove Text Description
-#    click element       ${dining_description}
-#    Press Keys          ${dining_description}      CTRL+A+DELETE
-#
-## Text Modify Description
-#      input text          ${dining_description}          especies, potatoes and soft meat
-#
-## Modify Image
-## Image
-#    Press Keys        ${image}      CTRL+A+DELETE
-#    input text        ${image}       Barbecue
-#
-## click Magnifier search
-#  click element         ${Search}
-#
-## Search Image
-#   click element                        id=image_2169305
-#
-## Click DONE
-#    click element       ${DONE}
-#
-## visible Tab Tags
-#  Execute Javascript              window.scrollTo(document.body.scrollHeight,0)
-#
-## enter more Text (tags)
-#   input text        ${tags}        Exquisite Taste
-#   press keys        ${tags}         ENTER
+    scroll element into view            ${Delete_Menu_Items}
+    click element      ${Delete_Menu_Items}
 
-##  Save Dinning
-#   scroll element into view    ${Save_btn}
-#   element text should be      ${Save_btn}     Save
-#   click element               ${Save_btn}
-#   click element               ${Save_btn}
-#
-## Confirm Menu Item Changes
-## Apply to This and Future Occurrences
-#    click element           ${Apply_Occurrences}
-#
-## simulate click and image Title
-#    wait until element is visible        ${Text_Image}
-#    mouse over                           ${Text_Image}
-#
-##  click  Icon Item Menu
-#    execute javascript      ${Icon_Item_Menu}
-#
-## click icon Meal
-#    execute javascript     ${icon_Meal}
-#
-#    sleep   1
-## click icon Date Served
-#    execute javascript      ${icon_Date_Served}
-#
-## Enter Icon de Search
-#    wait until element is visible       ${Search_Button}
-#    set focus to element                ${Search_Button}
-#    click element                      ${Search_Button}
-#
-#
-#    wait until element is visible       ${Tab_Search}
-#    set focus to element                ${Tab_Search}
-#    click element                       ${Tab_Search}
-#
-## enter search text (captures)
-#    input text        ${Tab_Search}      Giant Hot-dog
-#    click element        ${Tab_Search}
-#
-#    wait until element is visible   ${Clear_Search}
-#    set focus to element        ${Clear_Search}
-#    click element       ${Clear_Search}
-#
-## Enter Icon de Search
-#    click element                      ${Search_Button}
-#
-#    click element                       ${Tab_Search}
-#
-## enter search text (captures)
-#    input text        ${Tab_Search}      Chicken Fried
-#    click element       ${Tab_Search}
-#
-#    click element                       ${Clear_Search}
-#
-## Enter Icon de Search
-#    click element                      ${Search_Button}
-#
-#    click element                       ${Tab_Search}
-#
-## enter search text (captures)
-#    input text        ${Tab_Search}      Barbecue
-#    click element        ${Tab_Search}
-#
-#
-#    click element      ${Clear_Search}
-#
-## Enter Icon Filter
-#    click element       ${Filter_Icon}
-#
-#
-## Used JavaScript
-#
-## Enter the calendar Filter
-#    execute javascript      ${Calendar_Filter}
-#
-## Next Month In Window FIlter
-#    execute javascript      ${Next_Month}
-#
-## Return Month In Window Filter
-#    execute javascript          ${Return_Month}
-#
-## Click in the day Window Filter
-#    execute javascript      ${Current day}
-#
-## Click in tab Apply Current Filters
-#    execute javascript          ${Apply_Current_Filters}
-#
-## Enter Icon Filter
-#   click element    ${Filter_Icon}
-#
-#
-#
-## click Tab Clear All
-#    wait until element is visible       ${Clear_All}
-#    click element          ${Clear_All}
-#
-## Click Icon close Window Filter
-#    click element       //body/div[@id='DiningsFilterPopOver']/div[3]/div[1]/form[1]/div[1]/button[1]
-#
-#
-# # Enter Capture and modify Date
-#    scroll element into view         ${Chicken-Fried}
-#    click element                    ${Chicken-Fried}
-#
-# # enter Star Date Calendar
-#        click element         ${Start-Date}
-#
-## Enter Botton Calendar
-#        click element        ${Calendar_Btn}
-#
-## Back one month
-#        click element       ${back_month}
-#
-##Click in new Day
-#        execute javascript     ${oct01}
 
-##  Save Dinning
-#   scroll element into view    ${Save_btn}
-#   element text should be      ${Save_btn}     Save
-#   click element               ${Save_btn}
-#
-#
-## Confirm Menu Item Changes
-#    click element           ${Apply_Occurrences}
-#
-## Simulate click  Button select All
-#    scroll element into view                ${Button_SelectAll}
-#    wait until element is visible           ${Button_SelectAll}
-#    set focus to element                    ${Button_SelectAll}
-#    mouse down                              ${Button_SelectAll}
-#
-## simulate click and image Title
-#    wait until element is visible        ${Text_Image}
-#    set focus to element                 ${Text_Image}
-#    mouse over                           ${Text_Image}
-#
-## select button Select All
-#    scroll element into view                ${Button_SelectAll}
-#    wait until element is visible           ${Button_SelectAll}
-#
-#
-# # go down to the last capture
-#   Execute Javascript              window.scrollTo(0,document.body.scrollHeight)
-#
-#
-## upload to first capture
-#   Execute Javascript              window.scrollTo(0,document.body.scrollDown)
-#
-## click Icon Print
-#    scroll element into view    ${Log_Print}
-#    click element               ${Log_Print}
-#
-## click next visible capture dining
-#    double click element            ${right_arrow}
-#
-## close Incon close Print
-#    click element           ${Print_Close}
-#
-#
-## Simulate Button select All
-#    scroll element into view                ${Button_SelectAll}
-#    wait until element is visible           ${Button_SelectAll}
-#    set focus to element                    ${Button_SelectAll}
-#    mouse down                              ${Button_SelectAll}
-#
-## simulate click and image Title
-#    wait until element is visible        ${Text_Image}
-#    set focus to element                 ${Text_Image}
-#    mouse over                           ${Text_Image}
-#
-## select button Select All
-#    scroll element into view                ${Button_SelectAll}
-#    wait until element is visible           ${Button_SelectAll}
-#    click element                           ${Button_SelectAll}
-#
-# # Enter Capture and eliminated
-#    scroll element into view         ${Chicken-Fried}
-#    click element                  ${Chicken-Fried}
-#
-#  # enter Star Date Calendar
-#     wait until element is visible      ${Start-Date}
-#     set focus to element       ${Start-Date}
-#     mouse down     ${Start-Date}
-#
-# # click in the button Delete
-#    scroll element into view        ${Delete_Dinning}
-#    wait until element is visible    ${Delete_Dinning}
-#    set focus to element            ${Delete_Dinning}
-#    click element       ${Delete_Dinning}
-#    sleep       1
-#    click element       ${delete_Yes}
-#
-## reload the page to avoid waiting
-#    reload page
-#
-## Enter New Capture and eliminated
-#    scroll element into view         ${Chicken-Fried}
-#    click element                    ${Chicken-Fried}
-#    sleep   1
-#    scroll element into view        ${Delete_Dinning}
-#    wait until element is visible    ${Delete_Dinning}
-#    click element       ${Delete_Dinning}
-#    click element      ${Delete_All_Recurrence}
-#
-## reload the page to avoid waiting
-#    reload page
-#
-## Simulate Button select All
-#    scroll element into view                ${Button_SelectAll}
-#    click element                           ${Button_SelectAll}
-#
-#
-## Delete Menu Items
-#    scroll element into view            ${Delete_Multiple_Items}
-#    click element       ${Delete_Multiple_Items}
-#
-## Are you sure you want to delete the following menu items?
-#    scroll element into view            ${Delete_Menu_Items}
-#    click element      ${Delete_Menu_Items}
-#
-#
